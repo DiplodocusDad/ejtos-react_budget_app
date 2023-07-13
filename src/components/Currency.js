@@ -13,8 +13,8 @@ const Currency = () => {
     }
 
     return (
-        <div className='alert alert-secondary'>
-            <select className="custom-select" id="inputGroupSelect02" onChange={(event) => changeEvent(event.target.value)}>
+        <div className='btn btn-success dropdown-toggle'>
+            <select className="btn btn-success dropdown-toggle" id="inputGroupSelect02" onChange={(event) => changeEvent(event.target.value)}>
                 <option defaultValue value="£" name="Pound">£ Pound</option>
                 <option value="$" name="Dollar">$ Dollar</option>
                 <option value="€" name="Euro">€ Euro</option>

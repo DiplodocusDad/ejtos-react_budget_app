@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.Button {
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.Minus {
+    background-color: red;
+}
+
+.Plus {
+    background-color: green;
+}
